@@ -1,0 +1,16 @@
+{
+    "workbench.editorAssociations": {},
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Postgres Local",
+            "database": "currys_task",
+            "username": "postgres",
+            "password": "postgres"
+        }
+    ]
+}
