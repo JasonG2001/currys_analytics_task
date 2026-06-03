@@ -55,7 +55,7 @@ are *expected* by design: `end_date` (88.9% — active subscriptions have no end
 date), `trial_end_date` (22.2% — only trials carry one) and `payment_method`
 (6.7%). The remaining columns each have a single NULL (2.2%).
 
-[`sub_null_count.png`](screenshots/part1/sub_null_count.png) · [`sub_pct_null_count.png`](screenshots/part1/sub_pct_null_count.png)
+![`sub_null_count.png`](./screenshots/part1/sub_null_count.png) · [`sub_pct_null_count.png`](screenshots/part1/sub_pct_null_count.png)
 
 Three subscriptions are missing a revenue-critical field (`mrr_amount`,
 `currency` or `billing_period`) and should be excluded from core revenue totals
